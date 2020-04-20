@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Alien Number Systems</title><!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Alien Number Systems" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Ten Fingers - Decimal Number system" />
+<meta property="og:description" content="Ten Fingers - Decimal Number system" />
+<link rel="canonical" href="http://localhost:4000/2020/04/20/alien-number-systems.html" />
+<meta property="og:url" content="http://localhost:4000/2020/04/20/alien-number-systems.html" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-04-20T06:39:00-04:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"http://localhost:4000/2020/04/20/alien-number-systems.html","headline":"Alien Number Systems","dateModified":"2020-04-20T06:39:00-04:00","datePublished":"2020-04-20T06:39:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/04/20/alien-number-systems.html"},"description":"Ten Fingers - Decimal Number system","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" type="text/css" href="/assets/main-dark.css"></head>
+<body>
+    <div class="container"><header>
+  <div class="menu">
+    <ul></ul>
+  </div>
+</header>
+<main>
+      <h2 id="ten-fingers---decimal-number-system">Ten Fingers - Decimal Number system</h2>
+
+<p>Since humans have been in existence, the need to track the amount of an something has been a necessity. A Number System is quite simply <em>A set of values used to represent different quantities.</em> The system we use as humans is the decimal number system which consists of ten digits from 0 to 9.  These digits can be used to represent any numerical value.  We can refer to decimal as a <em>base 10</em> system since we must could 10 places before we move up in place value. This means that the number 10 in decimal would be 1 ‘ten’ plus 0 ‘units’.  I’m going to assume we understand decimal arithmetic without having to explain it in detail(I hope).</p>
+
+<h2 id="1s-and-0s-binary-number-system">1’s and 0’s Binary Number System</h2>
+
+<p>Unlike the decimal system, which is founded on base 10, the binary system is founded on <em>base 2</em>.  0 is represented as 0, and 1 is represented as 1 and just like the decimal system if the value exceeds 1 an additional column is needed.  As binary is in base 2 it uses twos instead of tens which the decimal system uses.  So for example 10 would translate to 8 plus 0 plus 2 plus 0 and would read 1010.  The Zeros are present to show the columns 2<sup>2</sup> and 2<sup>0</sup> The first column on the far right is 2 to the power 0, for each subsequent column the power is increased by 1.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>128’s</th>
+      <th>64’s</th>
+      <th>32’s</th>
+      <th>16’s</th>
+      <th>8’s</th>
+      <th>4’s</th>
+      <th>2’s</th>
+      <th>1’s</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Power</td>
+      <td>2<sup>7</sup></td>
+      <td>2<sup>6</sup></td>
+      <td>2<sup>5</sup></td>
+      <td>2<sup>4</sup></td>
+      <td>2<sup>3</sup></td>
+      <td>2<sup>2</sup></td>
+      <td>2<sup>1</sup></td>
+      <td>2<sup>0</sup></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Binary is used because it’s the easiest way to vary instructions through electric signals in a two-state system of on and off signals.  On is represented as 1 and off as 0, though 0 is not actually no signal but signal at a lower voltage.</p>
+
+<p>Each binary digit is also called a <em>bit</em>.  In any binary number, the rightmost digit is called least <em>significant bit(LSB)</em> and left most digit is called <em>most significant bit(MSB)</em>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>1</th>
+      <th>1</th>
+      <th>0</th>
+      <th>1</th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MSB</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>LSB</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>To find the decimal equivalent of any binary value we can find the sum of product of each digit with its positional value.</p>
+
+<p>11010<sub>2</sub> = 1 x 2<sup>4</sup> + 1 x 2<sup>3</sup> + 0 x 2<sup>2</sup> + 1 x 2<sup>1</sup> + 0 x 2<sup>0</sup></p>
+
+<p>= 16 + 8 + 0 + 2 + 0</p>
+
+<p>= 26<sub>10</sub></p>
+
+<h2 id="hexadecimal-number-system">Hexadecimal Number System</h2>
+
+<p>The Hexadecimal system has 16 digits - 0 to 9 and A to F where A is equal to 10, B is equal to 11 and so on till F.  This system is also a positional value system with where each digit has its value expressed in powers of 16.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hex</th>
+      <th>Decimal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>16</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Decimal equivalent of any hexadecimal number is sum of product of each digit with its positional value just as binary.</p>
+
+<p>27FB<sub>16</sub> = 2 x 16<sup>3</sup> + 7 x 16<sup>2</sup> + 15 x 16<sup>1</sup> + 11 x 16<sup>0</sup></p>
+
+<p>= 8192 + 1792 + 240 + 11</p>
+
+<p>= 10235<sub>10</sub></p>
+
+<p>This is only a quick overview an a more in depth arithmetic post will come in tomorrow’s post.</p>
+
+
+    </main><footer>
+  
+</footer>
+</div>
+  </body>
+</html>
